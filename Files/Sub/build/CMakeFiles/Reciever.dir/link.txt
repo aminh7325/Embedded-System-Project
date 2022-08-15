@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/Reciever.dir/src/Subscriber.c.o  -o bin/Reciever  -lpaho-mqtt3c -lmysqlclient -lpthread -lz -lm -lrt -latomic -lssl -lcrypto -ldl 

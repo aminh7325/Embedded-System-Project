@@ -1,0 +1,14 @@
+[Unit]
+Description = ServerMe
+After=multi-user.target
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/inpService
+ExecStart=/home/aminh7325/EmbSys/Project/Server/build/bin/Server $ARG1 $ARG2 $ARG3 $ARG4 $ARG5
+StandardOutput=journal+console
+StandardError=journal+console
+Restart=always
+[Install]
+WantedBy= multi-user.target
+

@@ -1,0 +1,3 @@
+/home/aminh7325/EmbSys/Project/Server/build/CMakeFiles/rebuild_cache.dir
+/home/aminh7325/EmbSys/Project/Server/build/CMakeFiles/edit_cache.dir
+/home/aminh7325/EmbSys/Project/Server/build/CMakeFiles/Server.dir

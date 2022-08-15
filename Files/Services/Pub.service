@@ -1,0 +1,13 @@
+[Unit]
+Description = Publisher
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/aminh7325/EmbSys/Project/Pub/build/bin/Publisher
+StandardOutput=journal+console
+StandardError=journal+console
+Restart=always
+[Install]
+WantedBy= multi-user.target
+

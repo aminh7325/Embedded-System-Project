@@ -1,0 +1,6 @@
+ARG1 = 0.0.0.0
+ARG2 = 8085
+ARG3 = .
+ARG4 = 100
+ARG5 = block
+
